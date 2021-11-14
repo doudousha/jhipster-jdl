@@ -1,3 +1,20 @@
+# 汉化
+修改src/studio/JDLToNoml.ts 支持汉化,格式如下
+```
+/** 区域 */
+entity Region {
+	/** 测试  **/
+	regionName String
+}
+
+```
+
+未来规划
+```
+1. 增加tab切换，支持同时编辑多个文件
+2. 支持// 注释，这样可以加快代码编写速度
+```
+
 # JDL-Studio
 
 Hello, this is [JDL-Studio](http://www.jhipster.tech//jdl-studio/), an online tool for drawing UML diagrams for [JHipster](http://www.jhipster.tech/) based on the [JDL syntax](http://www.jhipster.tech//jdl). It tries to keep its syntax visually as close as possible to the generated UML diagram without resorting to ASCII drawings.
